@@ -172,6 +172,15 @@ img {
     }
 }
 
+.navegation__link--white {
+    color: var(--gris);
+    transition: color .3s;
+}
+
+.navegation__link--white:hover {
+    color: var(--blanco);
+}
+
 .nucleus {
     margin-top: 3rem;
 }
@@ -355,3 +364,27 @@ img {
     font-weight: 700;
     text-align: right;
 }
+
+.footer {
+    background-color: #5A30A0;
+    padding: 3rem;
+}
+
+@media (min-width: 768px) {
+    .footer__grid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.footer__logo {
+    width: 20rem;
+    margin: 0 auto 4rem auto;
+}
+
+@media (min-width: 768px) {
+    .footer__logo {
+        margin: 0;
+    }
+}   
